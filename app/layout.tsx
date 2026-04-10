@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Inmobiliaria Olavarría | Propiedades en Venta y Alquiler',
   description: 'Encontrá tu próximo hogar en Olavarría. Propiedades en venta, alquiler y alquiler temporario. La mejor selección de casas y departamentos.',
-  generator: 'v0.app',
   keywords: ['inmobiliaria', 'Olavarría', 'propiedades', 'venta', 'alquiler', 'casas', 'departamentos'],
   icons: {
     icon: [
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon.png',
         type: 'image/svg+xml',
       },
     ],
